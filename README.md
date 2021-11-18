@@ -6,6 +6,10 @@ Após as modificações o terminal terá algumas funções diferenciadas, como:
 - `zsh-users/zsh-autosuggestions`: Sugere comandos baseados no histórico de execução conforme você vai digitando;
 - `zsh-users/zsh-completions`: Adiciona milhares de completitions para ferramentas comuns como Yarn, Homebrew, NVM, Node, etc, para você precisar apenas apertar TAB para completar comandos;
 - Tema diferenciado.
+
+## Resultado esperado (para este tutorial)
+
+![OhMyZsh](OhMyZsh.png)
   
 ## Instalando o ZSH
 
