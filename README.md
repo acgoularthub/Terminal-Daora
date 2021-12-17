@@ -48,7 +48,7 @@ Para instalar plugins precisamos configurar o ZInit, ferramenta que facilita a i
 Originalmente o ZInit era fornecido pelo repositório do zdharma que não fornece mais atualizações, mas consegui esse repo nomeado zdharma-contiuum que funciona perfeitamente.
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma-continuum/zinit/master/doc/install.sh)"
+sh -c "$(curl -fsSL https://git.io/zinit-install)"
 
 ```
 
