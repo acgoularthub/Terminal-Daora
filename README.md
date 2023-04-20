@@ -48,11 +48,11 @@ Para instalar plugins precisamos configurar o ZInit, ferramenta que facilita a i
 Originalmente o ZInit era fornecido pelo repositório do zdharma que não fornece mais atualizações, mas consegui esse repo nomeado zdharma-contiuum que funciona perfeitamente.
 
 ```bash
-sh -c "$(curl -fsSL https://git.io/zinit-install)"
+bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
 
 ```
 
-Após essa instalação, vamos abrir o arquivo `~/.zshrc` novamente e abaixo da linha `### End of ZInit's installer chunk` que foi adicionada automaticamente no arquivo, adicionamos:
+Após essa instalação, vamos abrir o arquivo `~/.zshrc` novamente e adicionamos após a ultima linha deste documento, após o snippet :
 
 ```
 zinit light zdharma/fast-syntax-highlighting
